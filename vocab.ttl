@@ -1,1 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix mo: <http://purl.org/ontology/mo#>.
+@prefix SDS: <https://ammour99.github.io/EXAM_THYP_21-22/#> .
 
+<https://github.com/ammour99/EXAM_THYP_21-22#> a owl:Ontology ;
+    dcterms:title "NEWS" .
+
+SDS:New a rdfs:Class ;
+    rdfs:label "New" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Article a rdfs:Class ;
+    rdfs:label "Article" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Journal a rdfs:Class ;
+    rdfs:label "Seance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+
+SDS:Description a rdf:Property ;
+    rdfs:label "Description" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Id a rdf:Property ;
+    rdfs:label "Id" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Nom a rdf:Property ;
+    rdfs:label "Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Page a rdf:Property ;
+    rdfs:label "Page" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+SDS:Evaluer a rdf:Property ;
+    rdfs:label "Evaluer" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+    
