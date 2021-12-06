@@ -27,7 +27,7 @@
           showItems(results[0]);
         });
     }
-   function showItems(data) {
+    function showItems(data) {
 
 let elem = d3.select('#items').selectAll("*").data(data).enter()
     .append("div").attr('class', 'elem col-sm-3');
@@ -35,9 +35,8 @@ let elem = d3.select('#items').selectAll("*").data(data).enter()
 let content= elem.append('div').attr('class', 'card-body');
 content
     .append('p').text((d) =>  "Id :" + d["o:id"])
-    .append('p').text((d) => "Titre :" +d["o:title"]) 
-    .append('p').text((d) => "Media :" +d["o:media"]) 
-
+    .append('p').text((d) => "Titre :" +d["o:titre"])
+    .append('p').text((d) => "Media :" +d["o:media"])                                                                 
 }
   </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
