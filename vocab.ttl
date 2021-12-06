@@ -55,5 +55,18 @@ SDS:Evaluer a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+SDS:Rubrique a rdf:Property ;
+    rdfs:label "Rubrique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+SDS:Age a rdf:Property ;
+    rdfs:label "Age" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+  SDS:Biographie a rdf:Property ;
+    rdfs:label "Biographie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
     
